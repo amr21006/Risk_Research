@@ -1,0 +1,5 @@
+strategy,test AP (%),test F1 at 20% review (%),precision at 5% review (%),criteria an inspector must read
+Raw primary probability,89.5,62.74,99.9,1
+Logistic re-estimation of the composite on five probabilities,89.84,62.66,99.8,5
+Auto-MCDM baseline,82.75,56.62,95.0,9
+Pareto-optimized configuration,89.78,62.72,99.9,3

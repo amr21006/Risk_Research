@@ -1,0 +1,9 @@
+| variable                 | full_test_top_categories                                     | sampled_test_top_categories                                  |   total_variation_distance_pct |
+|:-------------------------|:-------------------------------------------------------------|:-------------------------------------------------------------|-------------------------------:|
+| tender_proceduretype     | OPEN: 51.2%; missing: 17.6%; OTHER: 11.1%                    | OPEN: 51.1%; missing: 17.7%; OTHER: 11.2%                    |                      0.397281  |
+| tender_supplytype        | WORKS: 66.6%; missing: 29.7%; SERVICES: 2.6%                 | WORKS: 66.5%; missing: 29.7%; SERVICES: 2.6%                 |                      0.0905806 |
+| buyer_buyertype          | REGIONAL_AUTHORITY: 31.1%; missing: 27.8%; OTHER: 16.0%      | REGIONAL_AUTHORITY: 31.1%; missing: 27.9%; OTHER: 15.7%      |                      0.337251  |
+| buyer_mainactivities     | missing: 48.2%; GENERAL_PUBLIC_SERVICES: 19.8%; OTHER: 18.5% | missing: 48.3%; GENERAL_PUBLIC_SERVICES: 19.6%; OTHER: 18.6% |                      0.424995  |
+| cpv_group                | 452: 46.2%; 450: 24.6%; 454: 12.1%                           | 452: 46.4%; 450: 24.5%; 454: 12.1%                           |                      0.365123  |
+| tender_lotscount         | median 1; p90 12; p99 52; >=10 lots 11.2%                    | median 1; p90 12; p99 49; >=10 lots 11.3%                    |                    nan         |
+| y_cri_high positive rate | 39.50%                                                       | 39.50%                                                       |                    nan         |

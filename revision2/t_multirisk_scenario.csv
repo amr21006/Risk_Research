@@ -1,0 +1,4 @@
+queue,lots reviewed,overlap with raw-probability queue (%),queue Jaccard vs raw probability,Composite integrity risk: positives captured,Market concentration risk: positives captured,No-call-for-tender risk: positives captured,Procedural risk: positives captured,Single-bid risk: positives captured,lots flagged on 2 or more dimensions,total risk positives captured across dimensions,test primary AP (%)
+Raw primary probability,2000,100.0,1.0,1996,454,1222,1669,735,1722,6076,89.5
+Knee-point configuration,2000,78.8,0.65,1995,492,1333,1850,811,1878,6481,89.78
+Multi-risk mandate configuration,2000,68.5,0.52,1995,459,1309,1909,1013,1998,6685,89.06

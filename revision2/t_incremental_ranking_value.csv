@@ -1,0 +1,7 @@
+criterion added to primary probability,standalone test AP (%),combined test AP (%),incremental AP (pp),95% paired bootstrap interval (pp)
+none (primary probability alone),89.5,89.5,0.00,reference
+Procedural risk,72.67,89.79,+0.29,"[+0.26, +0.33]"
+Market concentration risk,41.65,89.93,+0.43,"[+0.37, +0.48]"
+Single-bid risk,68.13,89.92,+0.42,"[+0.38, +0.45]"
+No-call-for-tender risk,61.33,89.7,+0.20,"[+0.11, +0.28]"
+all four secondary probabilities,n/a,89.84,+0.33,"[+0.25, +0.42]"

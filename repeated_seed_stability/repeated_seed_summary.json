@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "optimization_rows": 12000,
+  "population_size": 40,
+  "generations": 50,
+  "runs": 5,
+  "mean_test_primary_average_precision": 0.8991748486960287,
+  "std_test_primary_average_precision": 0.0010510798287617447,
+  "mean_test_primary_f1": 0.4562259448315446,
+  "std_test_primary_f1": 0.006359267013575863,
+  "mean_test_any_f1": 0.31835536657840596,
+  "std_test_any_f1": 0.0048108950180175405,
+  "mean_top_20_overlap": 0.9733625
+}

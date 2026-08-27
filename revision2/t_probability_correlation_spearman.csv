@@ -1,0 +1,6 @@
+predicted probability,Composite integrity risk,Procedural risk,Market concentration risk,Single-bid risk,No-call-for-tender risk
+Composite integrity risk,1.0,0.848,0.078,0.56,0.475
+Procedural risk,0.848,1.0,0.101,0.557,0.444
+Market concentration risk,0.078,0.101,1.0,-0.079,-0.001
+Single-bid risk,0.56,0.557,-0.079,1.0,0.4
+No-call-for-tender risk,0.475,0.444,-0.001,0.4,1.0

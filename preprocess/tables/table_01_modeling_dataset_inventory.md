@@ -1,0 +1,4 @@
+| dataset        | path                                            |    rows |   features |   targets |   size_mb |
+|:---------------|:------------------------------------------------|--------:|-----------:|----------:|----------:|
+| audit priority | data\modeling\tender_lot_audit_priority.parquet | 3830910 |         56 |        10 |    141.37 |
+| strict ex ante | data\modeling\tender_lot_strict_ex_ante.parquet | 3830910 |         22 |        10 |     45.68 |

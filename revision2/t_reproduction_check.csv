@@ -1,0 +1,5 @@
+check,value
+knee configuration re-decoded from archive,NSGA-III / cocoso / robust / 3 criteria / 11.7% review
+rows matched against stored ranking,"40,000"
+"Spearman correlation, recomputed vs stored score",1.000000
+maximum absolute score difference,2.97e-08

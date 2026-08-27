@@ -1,0 +1,14 @@
+perturbation,target vector,archive solution,selected configuration,review rate (%),test primary AP (%),queue Jaccard vs knee point,rank Spearman vs knee point
+Base vector (pre-specified),0.300 / 0.200 / 0.200 / 0.150 / 0.100 / 0.050,95,NSGA-III / cocoso / sum / 7 criteria / 11.7%,11.7,89.38,0.951,0.976
+primary AP -50%,0.176 / 0.235 / 0.235 / 0.176 / 0.118 / 0.059,65,NSGA-II / topsis / minmax / 7 criteria / 12.9%,12.9,76.35,0.489,0.8221
+primary AP +50%,0.391 / 0.174 / 0.174 / 0.130 / 0.087 / 0.043,102,NSGA-III / cocoso / robust / 7 criteria / 11.6%,11.6,89.48,0.96,0.9786
+primary nDCG -50%,0.333 / 0.111 / 0.222 / 0.167 / 0.111 / 0.056,423,AGE-MOEA / edas / sum / 6 criteria / 14.8%,14.8,88.85,0.743,0.9863
+primary nDCG +50%,0.273 / 0.273 / 0.182 / 0.136 / 0.091 / 0.045,102,NSGA-III / cocoso / robust / 7 criteria / 11.6%,11.6,89.48,0.96,0.9786
+primary F1 -50%,0.333 / 0.222 / 0.111 / 0.167 / 0.111 / 0.056,102,NSGA-III / cocoso / robust / 7 criteria / 11.6%,11.6,89.48,0.96,0.9786
+primary F1 +50%,0.273 / 0.182 / 0.273 / 0.136 / 0.091 / 0.045,81,NSGA-III / cocoso / robust / 7 criteria / 17.0%,17.0,89.31,0.687,0.9753
+secondary F1 -50%,0.324 / 0.216 / 0.216 / 0.081 / 0.108 / 0.054,102,NSGA-III / cocoso / robust / 7 criteria / 11.6%,11.6,89.48,0.96,0.9786
+secondary F1 +50%,0.279 / 0.186 / 0.186 / 0.209 / 0.093 / 0.047,423,AGE-MOEA / edas / sum / 6 criteria / 14.8%,14.8,88.85,0.743,0.9863
+review burden -50%,0.316 / 0.211 / 0.211 / 0.158 / 0.053 / 0.053,81,NSGA-III / cocoso / robust / 7 criteria / 17.0%,17.0,89.31,0.687,0.9753
+review burden +50%,0.286 / 0.190 / 0.190 / 0.143 / 0.143 / 0.048,102,NSGA-III / cocoso / robust / 7 criteria / 11.6%,11.6,89.48,0.96,0.9786
+configuration complexity -50%,0.308 / 0.205 / 0.205 / 0.154 / 0.103 / 0.026,95,NSGA-III / cocoso / sum / 7 criteria / 11.7%,11.7,89.38,0.951,0.976
+configuration complexity +50%,0.293 / 0.195 / 0.195 / 0.146 / 0.098 / 0.073,95,NSGA-III / cocoso / sum / 7 criteria / 11.7%,11.7,89.38,0.951,0.976
