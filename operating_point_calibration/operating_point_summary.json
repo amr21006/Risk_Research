@@ -1,0 +1,13 @@
+{
+  "test_rows": 40000,
+  "test_y_cri_high_positive_rate": 0.3950098752468812,
+  "max_f1_at_20_percent_budget": 0.6722577500651266,
+  "pareto_auto_mcdm_calibrated_top_k_test": {
+    "val_threshold": 0.44,
+    "test_selected_rate": 0.4400110002750069,
+    "test_selected_count": 17600,
+    "test_precision": 0.7852272727272728,
+    "test_recall": 0.8746835443037975,
+    "test_f1": 0.8275449101796407
+  }
+}

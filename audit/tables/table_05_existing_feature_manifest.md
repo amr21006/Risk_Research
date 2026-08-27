@@ -1,0 +1,71 @@
+| column                              | role                | type            | used_as_feature   |
+|:------------------------------------|:--------------------|:----------------|:------------------|
+| trace_group_id                      | trace only          | identifier      | False             |
+| federated_client_id                 | federated partition | client grouping | False             |
+| client_available                    | federated partition | client grouping | False             |
+| tender_proceduretype                | candidate feature   | categorical     | True              |
+| tender_nationalproceduretype        | candidate feature   | categorical     | True              |
+| tender_supplytype                   | candidate feature   | categorical     | True              |
+| tender_isjointprocurement           | candidate feature   | categorical     | True              |
+| tender_isframeworkagreement         | candidate feature   | categorical     | True              |
+| tender_isdps                        | candidate feature   | categorical     | True              |
+| tender_maincpv                      | candidate feature   | categorical     | True              |
+| tender_iseufunded                   | candidate feature   | categorical     | True              |
+| tender_selectionmethod              | candidate feature   | categorical     | True              |
+| buyer_mainactivities                | candidate feature   | categorical     | True              |
+| buyer_buyertype                     | candidate feature   | categorical     | True              |
+| buyer_type                          | candidate feature   | categorical     | True              |
+| bidder_type                         | candidate feature   | categorical     | True              |
+| bid_issubcontracted                 | candidate feature   | categorical     | True              |
+| bid_isconsortium                    | candidate feature   | categorical     | True              |
+| cpv_division                        | candidate feature   | categorical     | True              |
+| cpv_group                           | candidate feature   | categorical     | True              |
+| tender_lotscount                    | candidate feature   | numeric         | True              |
+| tender_recordedbidscount            | candidate feature   | numeric         | True              |
+| tender_awardcriteria_count          | candidate feature   | numeric         | True              |
+| tender_corrections_count            | candidate feature   | numeric         | True              |
+| lot_row_nr                          | candidate feature   | numeric         | True              |
+| lot_bidscount                       | candidate feature   | numeric         | True              |
+| lot_validbidscount                  | candidate feature   | numeric         | True              |
+| lot_electronicbidscount             | candidate feature   | numeric         | True              |
+| lot_smebidscount                    | candidate feature   | numeric         | True              |
+| bid_subcontractedproportion         | candidate feature   | numeric         | True              |
+| tender_description_length           | candidate feature   | numeric         | True              |
+| lot_description_length              | candidate feature   | numeric         | True              |
+| tender_personalrequirements_length  | candidate feature   | numeric         | True              |
+| tender_technicalrequirements_length | candidate feature   | numeric         | True              |
+| tender_economicrequirements_length  | candidate feature   | numeric         | True              |
+| rows_aggregated                     | candidate feature   | numeric         | True              |
+| reported_bid_count                  | candidate feature   | numeric         | True              |
+| bid_price_usd_count                 | candidate feature   | numeric         | True              |
+| bid_price_usd_min                   | candidate feature   | numeric         | True              |
+| bid_price_usd_max                   | candidate feature   | numeric         | True              |
+| bid_price_usd_mean                  | candidate feature   | numeric         | True              |
+| bid_price_usd_std                   | candidate feature   | numeric         | True              |
+| bid_price_usd_cv                    | candidate feature   | numeric         | True              |
+| bid_price_usd_spread_ratio          | candidate feature   | numeric         | True              |
+| log_bid_price_usd_min               | candidate feature   | numeric         | True              |
+| log_bid_price_usd_mean              | candidate feature   | numeric         | True              |
+| lot_estimated_price_usd             | candidate feature   | numeric         | True              |
+| tender_estimated_price_usd          | candidate feature   | numeric         | True              |
+| tender_final_price_usd              | candidate feature   | numeric         | True              |
+| log_lot_estimated_price_usd         | candidate feature   | numeric         | True              |
+| log_tender_estimated_price_usd      | candidate feature   | numeric         | True              |
+| log_tender_final_price_usd          | candidate feature   | numeric         | True              |
+| final_to_estimated_ratio            | candidate feature   | numeric         | True              |
+| lot_to_tender_estimated_ratio       | candidate feature   | numeric         | True              |
+| final_to_min_bid_ratio              | candidate feature   | numeric         | True              |
+| estimated_to_min_bid_ratio          | candidate feature   | numeric         | True              |
+| missing_bid_price_usd               | candidate feature   | numeric         | True              |
+| missing_tender_estimated_price_usd  | candidate feature   | numeric         | True              |
+| missing_tender_final_price_usd      | candidate feature   | numeric         | True              |
+| label_corr_singleb                  | label               | risk outcome    | False             |
+| label_corr_proc                     | label               | risk outcome    | False             |
+| label_corr_nocft                    | label               | risk outcome    | False             |
+| label_corr_buyer_concentration      | label               | risk outcome    | False             |
+| label_cri                           | label               | risk outcome    | False             |
+| y_cri_high                          | binary target       | risk outcome    | False             |
+| y_proc_high                         | binary target       | risk outcome    | False             |
+| y_buyer_concentration_high          | binary target       | risk outcome    | False             |
+| y_single_bid                        | binary target       | risk outcome    | False             |
+| y_no_call_for_tender                | binary target       | risk outcome    | False             |

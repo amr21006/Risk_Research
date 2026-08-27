@@ -1,0 +1,4 @@
+| dataset                   | path                                  |    rows |   columns |   size_mb |
+|:--------------------------|:--------------------------------------|--------:|----------:|----------:|
+| raw bid level data        | All_Construction_Data.csv             | 4337081 |       127 |   4919.59 |
+| processed tender lot data | data\processed\tender_lot_dataset.csv | 3830910 |        69 |    935.26 |

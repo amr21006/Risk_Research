@@ -1,0 +1,74 @@
+{
+  "optimization_rows": 15000,
+  "test_rows": 40000,
+  "algorithms": [
+    "NSGA-II",
+    "NSGA-III",
+    "R-NSGA-II",
+    "SMS-EMOA",
+    "AGE-MOEA"
+  ],
+  "population_size": 100,
+  "generations": 200,
+  "raw_archive_solutions": 500,
+  "unique_archive_solutions": 473,
+  "non_dominated_solutions": 428,
+  "selected_solution_knee": {
+    "algorithm": "NSGA-III",
+    "method": "cocoso",
+    "normalization": "robust",
+    "top_k_rate": 0.1168531627205063,
+    "val_top_k_count": 1753,
+    "test_top_k_count": 4675,
+    "val_primary_average_precision": 0.9092866064128095,
+    "val_primary_f1": 0.45326737828690444,
+    "test_primary_average_precision": 0.8978373637295094,
+    "test_primary_f1": 0.45177045177045183,
+    "test_any_f1": 0.31377954079402964,
+    "selected_criteria_count": 3,
+    "selector_metadata": {
+      "selector": "knee point minimum distance to ideal",
+      "objective_columns": [
+        "objective_ap_loss",
+        "objective_ndcg_loss",
+        "objective_f1_loss",
+        "objective_any_f1_loss",
+        "objective_review_burden",
+        "objective_complexity"
+      ],
+      "distance_to_ideal": 0.7360640084339027
+    }
+  },
+  "selected_solution_pseudo_weights": {
+    "algorithm": "NSGA-III",
+    "method": "cocoso",
+    "normalization": "sum",
+    "top_k_rate": 0.11708946134439384,
+    "test_top_k_count": 4684,
+    "test_primary_average_precision": 0.8938455650251643,
+    "test_primary_f1": 0.45098613552040606,
+    "test_any_f1": 0.3142895550477215,
+    "selected_criteria_count": 7,
+    "selector_metadata": {
+      "selector": "pseudo weights L2 to target",
+      "objective_columns": [
+        "objective_ap_loss",
+        "objective_ndcg_loss",
+        "objective_f1_loss",
+        "objective_any_f1_loss",
+        "objective_review_burden",
+        "objective_complexity"
+      ],
+      "target_weights": [
+        0.3,
+        0.2,
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "distance_to_target": 0.07451300389005154
+    }
+  },
+  "ranking_path": "outputs\\pareto_ensemble\\rankings\\pareto_selected_auto_mcdm_ranking.parquet"
+}

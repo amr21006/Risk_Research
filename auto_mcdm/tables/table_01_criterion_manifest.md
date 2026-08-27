@@ -1,0 +1,11 @@
+| criterion                  | orientation   | construction_interpretation               |
+|:---------------------------|:--------------|:------------------------------------------|
+| p_cri_high                 | benefit       | predicted composite integrity risk        |
+| p_proc_high                | benefit       | predicted procedural risk                 |
+| p_buyer_concentration_high | benefit       | predicted buyer concentration risk        |
+| p_single_bid               | benefit       | predicted single bid vulnerability        |
+| p_no_call_for_tender       | benefit       | predicted no call for tender risk         |
+| risk_consensus_mean        | benefit       | mean predicted risk across outcomes       |
+| risk_consensus_max         | benefit       | maximum predicted risk across outcomes    |
+| uncertainty_mean           | benefit       | mean model uncertainty across outcomes    |
+| uncertainty_max            | benefit       | maximum model uncertainty across outcomes |

@@ -1,0 +1,7 @@
+| label                    | label_type         |   non_missing |   positive_or_high_risk_count | threshold     |
+|:-------------------------|:-------------------|--------------:|------------------------------:|:--------------|
+| cri                      | numeric risk score |       4337009 |                       1596390 | p75=0.5       |
+| corr_nocft               | binary indicator   |       2940891 |                       1067720 | truthy values |
+| corr_singleb             | binary indicator   |       2301175 |                        503397 | truthy values |
+| corr_buyer_concentration | numeric risk score |       2568441 |                        642112 | p75=0.0738793 |
+| corr_proc                | numeric risk score |       3514121 |                       1037825 | p75=0.5       |

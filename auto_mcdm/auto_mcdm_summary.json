@@ -1,0 +1,31 @@
+{
+  "val_rows": 40001,
+  "test_rows": 40000,
+  "criteria": [
+    "p_cri_high",
+    "p_proc_high",
+    "p_buyer_concentration_high",
+    "p_single_bid",
+    "p_no_call_for_tender",
+    "risk_consensus_mean",
+    "risk_consensus_max",
+    "uncertainty_mean",
+    "uncertainty_max"
+  ],
+  "evaluated_configurations": 80,
+  "selected_configuration": {
+    "mcdm_method": "topsis",
+    "normalization": "minmax",
+    "weight_method": "validation_ap",
+    "top_k_rate": 0.2,
+    "val_selection_score": 0.719204068618092,
+    "test_y_cri_high_average_precision": 0.8274771064663811,
+    "test_y_cri_high_selected_f1": 0.566218487394958,
+    "test_y_cri_high_selected_precision": 0.84225,
+    "test_y_cri_high_selected_recall": 0.42645569620253165,
+    "test_y_cri_high_selected_ndcg": 0.8531830741794966,
+    "test_y_any_risk_average_precision": 0.9032033277688898,
+    "test_y_any_risk_selected_f1": 0.44678277697145624
+  },
+  "ranking_path": "outputs\\auto_mcdm\\rankings\\selected_auto_mcdm_ranking.parquet"
+}

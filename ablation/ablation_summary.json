@@ -1,0 +1,23 @@
+{
+  "test_rows": 40000,
+  "bootstrap_iterations": 1000,
+  "reproduction_difference": 2.971092927239738e-08,
+  "best_strategy_by_average_precision": "pareto auto mcdm",
+  "best_strategy_by_best_f1": "raw cri probability",
+  "pareto_auto_mcdm": {
+    "average_precision": 0.8978373637295094,
+    "best_f1": 0.6272268907563026,
+    "f1_at_20pct": 0.6272268907563026
+  },
+  "baseline_auto_mcdm": {
+    "average_precision": 0.8274770950226431,
+    "best_f1": 0.566218487394958,
+    "f1_at_20pct": 0.566218487394958
+  },
+  "manual_topsis_equal": {
+    "average_precision": 0.7800168457775567,
+    "best_f1": 0.5505882352941176,
+    "f1_at_20pct": 0.5505882352941176
+  },
+  "archive_configurations_evaluated": 473
+}

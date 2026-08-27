@@ -1,0 +1,12 @@
+{
+  "raw_rows": 4337081,
+  "raw_columns": 127,
+  "processed_rows": 3830910,
+  "processed_columns": 69,
+  "raw_size_mb": 4919.59,
+  "processed_size_mb": 935.26,
+  "outputs": {
+    "tables": "outputs\\audit\\tables",
+    "figures": "outputs\\audit\\figures"
+  }
+}
