@@ -1,0 +1,19 @@
+{
+  "test_rows": 40000,
+  "strategies": [
+    "raw cri probability",
+    "baseline auto mcdm",
+    "pareto auto mcdm"
+  ],
+  "targets": [
+    "y_cri_high",
+    "y_any_risk"
+  ],
+  "verification_passed": true,
+  "best_y_cri_strategy_by_average_precision": "pareto auto mcdm",
+  "best_y_cri_strategy_by_best_f1": "raw cri probability",
+  "outputs": {
+    "tables": "outputs\\validation\\tables",
+    "figures": "outputs\\validation\\figures"
+  }
+}

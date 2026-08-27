@@ -1,0 +1,6 @@
+target,source score,rule,definition,rows,source missing,derived positives,stored positives,rows in disagreement,disagreements exactly at the threshold,unexplained disagreements,agreement rate (%)
+y_cri_high,label_cri,label_cri >= 0.5,composite Corruption Risk Index score at or above 0.50,3830910,72,1510913,1510912,1,1,0,99.999974
+y_proc_high,label_corr_proc,label_corr_proc >= 0.5,procedural-risk score at or above 0.50,3830910,821603,826370,826370,0,0,0,100.0
+y_buyer_concentration_high,label_corr_buyer_concentration,label_corr_buyer_concentration >= 0.087196,buyer-concentration score at or above the upper-quartile cutoff of the modeling data,3830910,1738587,523081,523081,0,0,0,100.0
+y_single_bid,label_corr_singleb,label_corr_singleb > 0.0,single-bid indicator is positive,3830910,1945608,497007,497007,0,0,0,100.0
+y_no_call_for_tender,label_corr_nocft,label_corr_nocft > 0.0,no-call-for-tender indicator is positive,3830910,1159090,903903,903903,0,0,0,100.0
